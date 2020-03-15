@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+
+.head,
+.links {
+  text-align: center;
+}
+.head,
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head,
+.about {
+  margin-bottom: 10%;
+  color: bisque;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url(kep.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, 0.8) 10px 10px 80px;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, 0.8);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: aliceblue;
+}
+
+.profile-card {
+  left: 45pc;
+}
+h2 {
+  color: aliceblue;
+}
